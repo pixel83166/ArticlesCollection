@@ -23,3 +23,4 @@ def delete_article(name):
 
     with open("articles.json", "w", encoding="UTF-8") as soh_file:
         json.dump(delete_file, soh_file, ensure_ascii=False)
+
